@@ -5,7 +5,7 @@ TaskMananager is a ExtJs web-based application for managing tasks individually o
 Inspired by ExtJs Simple Task Demo.
 
 For a live demo please visit:
-http://dev.vorento.com/TaskManager/
+[http://dev.vorento.com/TaskManager/](http://dev.vorento.com/TaskManager/)
 
 ## Features
 
