@@ -1,0 +1,4 @@
+.tmp_*
+*~
+app.ini
+nbproject/*

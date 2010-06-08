@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>DateField Test</title>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/ext-all.css" />
+	
+	<!--- Styles --->
+	<style>
+	/*	GridFiltering */
+	li.x-menu-list-item div {
+		display: inline;
+	}
+	</style>
+	
+    <script type="text/javascript" src="../../adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="../../ext-all.js"></script>
+	
+	<script>
+// running the App
+Ext.onReady(function() {
+
+			/*---------------------------------------
+			 *	VIEWPORT
+			 *--------------------------------------*/	
+			this.viewport = new Ext.Viewport({
+				id: 'viewport',
+				layout: 'border',
+				items: [{
+					region: 'center',
+					title: 'Tab Panel',
+					items: [{
+						xtype: 'form',
+						frame: true,
+						title: 'First Tab',
+						items: [{
+							xtype: 'datefield',
+							fieldLabel: 'Date'
+						}]
+					}]
+				}],
+				renderTo: Ext.getBody()
+			});		
+});
+</script>
+	
+</head>
+<body >
+
+
+</body>
+</html>

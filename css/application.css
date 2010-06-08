@@ -1,0 +1,368 @@
+/*!
+ * Ext JS Library 3.0+
+ * Copyright(c) 2006-2009 Ext JS, LLC
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+#tasks-grid .x-grid3-header {
+    background: #f9f9f9 url(../img/hrow.gif) repeat-x left top;
+}
+#tasks-grid .new-task-row {
+    height:24px;
+}
+#tasks-grid .new-task-row .x-small-editor {
+    overflow:hidden;
+    width:100%;
+}
+#tasks-grid .new-task-row .x-small-editor input {
+    font-size:11px;
+}
+#new-task-icon {
+    width:16px;
+    height:16px;
+    margin-left:3px;
+    background: transparent url(../img/note_add.png) no-repeat;
+}
+.x-grid3-body .x-grid3-td-task-col .x-grid3-cell-inner {
+    padding: 1px 0 0 0 !important;
+}
+
+.task-check {
+    width:98%;
+    height:16px;
+    background: transparent url(../img/check.gif) no-repeat center 0;
+    cursor:pointer;
+}
+
+.task-completed .task-check {
+    background: transparent url(../img/check.gif) no-repeat center -16px;
+}
+
+.task-check-over {
+    background: transparent url(../img/check.gif) no-repeat center -32px;
+}
+
+.task-priority-high .x-grid3-cell-inner {
+	font-weight:bold;
+}
+.task-priority-med .x-grid3-cell-inner {
+	
+}
+.task-priority-low .x-grid3-cell-inner {
+	color:#666666;
+}
+.task-priority-closed .x-grid3-cell-inner {
+	color:#CCCCCC;
+	font-style:italic;
+}
+.task-completed .x-grid3-cell-inner {
+    text-decoration:line-through;
+    color:#009966;
+}
+.task-overdue .x-grid3-cell-inner{
+	background-color:#FFD7DB;
+}
+
+.task-col-hd {
+    width:98%;
+    height:12px;
+    background: transparent url(../img/hd-check.gif) no-repeat center center;
+    cursor:default;
+}
+
+.x-grid3-td-task-title .x-grid3-cell-inner {
+    white-space:normal;
+}
+
+
+.icon-show-active {
+    background-image:url(../img/icon-show-active.gif) !important;
+}
+.icon-show-complete {
+    background-image:url(../img/icon-show-complete.gif) !important;
+}
+.icon-show-all {
+    background-image:url(../img/icon-show-all.gif) !important;
+}
+.x-grid3-dirty-cell {
+    background:transparent;
+}
+
+.icon-active {
+    background-image:url(../img/icon-active.gif) !important;
+}
+.icon-complete {
+    background-image:url(../img/icon-complete.gif) !important;
+}
+.icon-delete {
+    background-image:url(../img/delete.gif) !important;
+}
+.icon-edit {
+	background-image:url(../img/edit.gif) !important;
+}
+
+
+.icon-by-date {
+    background-image:url(../img/icon-by-date.gif) !important;
+}
+.icon-by-forum {
+    background-image:url(../img/icon-by-category.gif) !important;
+}
+.icon-no-group {
+    background-image:url(../img/icon-no-group.gif) !important;
+}
+.icon-by-prime {
+    background-image:url(../img/status_online.png) !important;
+}
+.icon-by-priority {
+    background-image:url(../img/flag_blue.png) !important;
+}
+.icon-inbox {
+    background-image:url(../img/folder_star.png) !important;
+}
+.icon-archive {
+    background-image:url(../img/bin.png) !important;
+}
+.icon-change-repo {
+    background-image:url(../img/package_go.png) !important;
+}
+.icon-manage-repo {
+    background-image:url(../img/package.png) !important;
+}
+.icon-manage-settings {
+    background-image:url(../img/gears.gif) !important;
+}
+
+
+
+.icon-save { 
+	background-image: url(../img/save.gif) !important; background-repeat: no-repeat; 
+}
+.silk-grid { 
+	background-image: url(../img/grid.png) !important; background-repeat: no-repeat; 
+}
+.icon-add { 
+	background-image: url(../img/add.png) !important; background-repeat: no-repeat; 
+}
+.icon-add-large { 
+	background-image: url(../img/add_32.png) !important; background-repeat: no-repeat; 
+}
+.icon-add-small { 
+	background-image: url(../img/add_16.png) !important; background-repeat: no-repeat; 
+}
+
+.icon-note { 
+	background-image: url(../img/note.png) !important; background-repeat: no-repeat; 
+}
+.icon-note-add { 
+	background-image: url(../img/note_add.png) !important; background-repeat: no-repeat; 
+}
+.icon-note-edit { 
+	background-image: url(../img/note_edit.png) !important; background-repeat: no-repeat; 
+}
+.icon-note-delete { 
+	background-image: url(../img/note_delete.png) !important; background-repeat: no-repeat; 
+}
+.icon-note-go { 
+	background-image: url(../img/note_go.png) !important; background-repeat: no-repeat; 
+}
+
+.icon-excel {
+    background-image:url(../img/page_white_excel.png) !important;
+}
+
+.icon-logout {
+    background-image:url(../img/logout.gif) !important;
+}
+
+.icon-refresh,.icon-reload {
+	background-image:url(../img/arrow_refresh_small.png) ! important;
+}
+
+#action-panel .x-panel {
+	margin-bottom:3px;
+	margin-right:0;
+}
+#action-panel .x-panel-body {
+	border:0 none;
+}
+#action-panel .x-panel-body li {
+	margin:3px;
+}
+#action-panel .x-panel-body li img {
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	margin-right:2px;
+	margin-bottom:2px;
+}
+#action-panel .x-panel-body li a {
+	text-decoration:none;
+	color:#3764A0;
+}
+#action-panel .x-plain-body {
+	background-color:#cad9ec;
+    padding:3px 0 0 5px;
+}
+.x-air #action-panel .x-plain-body {
+	padding-left:3px;
+}
+#action-panel .x-panel-body li a:hover {
+	text-decoration:underline;
+	color:#15428b;
+}
+
+.x-panel-trans {
+	background:transparent;
+}
+
+.x-layout-split-west {
+	cursor:move;
+    background-color:#cad9ec;
+}
+.x-panel-header-text {
+	color:#3764A0;
+}
+#tasks-grid {
+	border-left:1px solid #99bbe8;
+}
+
+/*----------------
+fixing preview  from http://developer.yahoo.com/yui/base/
+---------------*/
+#preview {
+	border-width:0;
+	overflow:auto;
+	padding:5px;
+}
+
+#preview h1 {
+	/* 18px via YUI Fonts CSS foundation. */
+	font-size: 138.5%;
+}
+
+#preview h2 {
+	/* 16px via YUI Fonts CSS foundation. */
+	font-size: 123.1%;
+}
+
+#preview h3 {
+	/* 14px via YUI Fonts CSS foundation. */
+	font-size: 108%;
+}
+
+#preview h1,
+#preview h2,
+#preview h3 {
+	/* Top & bottom margin based on font size. */
+	margin: 1em 0;
+}
+
+#preview h1,
+#preview h2,
+#preview h3,
+#preview h4,
+#preview h5,
+#preview h6,
+#preview strong,
+#preview dt {
+	/* Bringing boldness back to headers and the strong element. */
+	font-weight: bold;
+}
+#preview optgroup {
+	font-weight:normal;
+}
+
+#preview abbr,
+#preview acronym {
+	/* Indicating to users that more info is available. */
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+
+#preview em {
+	/* Bringing italics back to the em element. */
+	font-style: italic;
+}
+
+#preview del {
+	/* Striking deleted phrases. */
+	text-decoration: line-through;
+}
+
+#preview blockquote,
+#preview ul,
+#preview ol,
+#preview dl {
+	/* Giving blockquotes and lists room to breath. */
+	margin: 1em;
+}
+
+#preview ol,
+#preview ul,
+#preview dl {
+	/* Bringing lists on to the page with breathing room. */
+	margin-left: 2em;
+}
+
+#preview ol li {
+	/* Giving OL's LIs generated numbers. */
+	list-style: decimal outside;
+}
+
+#preview ul li {
+	/* Giving UL's LIs generated disc markers. */
+	list-style: disc outside;
+}
+
+#preview dl dd {
+	/* Giving UL's LIs generated numbers. */
+	margin-left: 1em;
+}
+
+#preview th,
+#preview td {
+	/* Borders and padding to make the table readable. */
+	border: 1px solid #000;
+	padding: .5em;
+}
+
+#preview th {
+	/* Distinguishing table headers from data cells. */
+	font-weight: bold;
+	text-align: center;
+}
+
+#preview caption {
+	/* Coordinated margin to match cell's padding. */
+	margin-bottom: .5em;
+	/* Centered so it doesn't blend in to other content. */
+	text-align: center;
+}
+
+#preview sup {
+	/* to preserve line-height and selector appearance */
+	vertical-align: super;
+}
+
+#preview sub {
+	/* to preserve line-height and selector appearance */
+	vertical-align: sub;
+}
+
+#preview p,
+#preview fieldset,
+#preview table,
+#preview pre {
+	/* So things don't run into each other. */
+	margin-bottom: 1em;
+}
+
+
+/*	Search Items (Top right)
+-----------------------*/
+.search-item {
+	font:normal 11px tahoma, arial, helvetica, sans-serif;
+	padding:3px 10px 3px 10px;
+	border:1px solid #fff;
+}
