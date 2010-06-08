@@ -23,15 +23,15 @@ For a live demo please visit:
 
     $ git clone git://github.com/vinnybozz/TaskManager.git
 	
-    * Create DATABASE 'taskmanager' or other
+    * Create DATABASE 'taskmanager' or other name
 
-    * Create required Tables:
+    * Create required Tables (db/taskmanager_tables.sql):
         - repos
         - tasks
         - privileges
         (- users table is included as a sample, you can replace or integrate your own)
 
-    * Create required Views
+    * Create required Views (db/taskmanager_views.sql):
         - v_repos_total
         - v_tasks
         - v_privileges
